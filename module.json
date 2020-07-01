@@ -1,0 +1,18 @@
+{
+    "author": "ashame",
+    "description": "searches broker for stat rolls",
+    "disableAutoUpdate": false,
+    "name": "broker-search",
+    "options": {
+        "niceName": "broker-search",
+        "reloadable": true,
+        "settingsVersion": 1,
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings.js"
+    },
+    "servers": [
+        "https://git.imashamed.net/nathan/broker-search/raw/master/"
+    ],
+    "supportUrl": "https://discordapp.com/users/89571774471086080",
+    "version": "1.0.0"
+}
