@@ -1,4 +1,4 @@
-# broker-search
+# broker-search [![discord](https://img.shields.io/badge/discord-msg-333333.svg?colorA=253B80&colorB=333333)](https://discordapp.com/users/89571774471086080)
 
 TERA Toolbox module for finding your gear rolls on broker
 
@@ -24,7 +24,7 @@ TERA Toolbox module for finding your gear rolls on broker
 ## Presets
 
 [`Warlord Accessory / Infusion IDs`](http://imashamed.net/stats.html)
-[`Exodor Gear IDs`](http://imashamed.net/stats.html)
+[`Exodor Gear IDs`](http://imashamed.net/stats2.html)
 
 Presets can be used to customize 'loadouts' for quick loading / switching between ID sets.
 
@@ -114,6 +114,11 @@ At any given time, you can view all custom-made presets and their contents with 
 ## Changelog
 
 ```diff
+v1.0.1
++ Unauthorized users will now receieve a message in-game indicating them of their status
++ Unauthorized users will be able to use the base command to open a broker anywhere
++ Added example config file for creating presets outside of game
+
 v1.0.0
 + Initial release
 ```

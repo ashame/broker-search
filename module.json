@@ -5,7 +5,7 @@
     "name": "broker-search",
     "options": {
         "niceName": "broker-search",
-        "reloadable": true,
+        "reloadable": false,
         "settingsVersion": 1,
         "settingsFile": "config.json",
         "settingsMigrator": "settings.js"
@@ -13,6 +13,6 @@
     "servers": [
         "https://git.imashamed.net/nathan/broker-search/raw/master/"
     ],
-    "supportUrl": "https://discordapp.com/users/89571774471086080",
-    "version": "1.0.0"
+    "supportUrl": "https://git.imashamed.net/nathan/broker-search/blob/master/README.md",
+    "version": "1.0.1"
 }
