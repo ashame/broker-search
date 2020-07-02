@@ -1,7 +1,6 @@
 {
     "version": 1,
     "data": {
-        "enabled": true,
         "pageDelay": 100,
         "itemDelay": 40,
         "stats": [],

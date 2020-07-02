@@ -1,7 +1,6 @@
 "use strict";
 
 const DefaultSettings = {
-    enabled: true,
     pageDelay: 100,
     itemDelay: 40,
     stats: [],

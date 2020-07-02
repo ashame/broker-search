@@ -1,6 +1,6 @@
 # broker-search [![discord](https://img.shields.io/badge/discord-msg-333333.svg?colorA=253B80&colorB=333333)](https://discordapp.com/users/89571774471086080)
 
-TERA Toolbox module for finding your gear rolls on broker
+TERA Toolbox module for finding your gear rolls on broker. Unauthorized users can PM nathan#0111 on Discord with your accountId to discuss.
 
 ## Installation
 
@@ -18,7 +18,7 @@ TERA Toolbox module for finding your gear rolls on broker
   - Adds physical amplification rolls to query
 
 - __`broker search`__
-  - Prepares script for broker search
+  - Prepares script for broker search - this will search for anything with the two highest physical crit power **or** physical amplification rolls
   - **You still need to manually search for your item at this point**
 
 ## Presets
@@ -65,14 +65,11 @@ At any given time, you can view all custom-made presets and their contents with 
 
 ## Commands
 
-- __`broker`__
-- __`b`__
-- __`bs`__
+- __`broker`/`bs`/`b`__
+  - Opens the trade broker
 
 ### Arguments
 
-- __`open`__
-  - opens trade broker window
 - __`search`__
   - toggles search on next broker query
 - __`list`__
@@ -80,30 +77,31 @@ At any given time, you can view all custom-made presets and their contents with 
 - __`info`__
   - displays verbose information about the script
 - __`pagedelay`__
-  - `[ms]` : adjusts delay between flipping through broker pages
+  - `[ms]` : adjusts delay between flipping through broker pages *(default: 100)*
 - __`delay`__
-  - `[ms]` : adjusts delay between querying item stats
+  - `[ms]` : adjusts delay between querying item stats *(default: 40)*
 - __`add`__
   - `[id]` : adds ID to list of stats to search for [`Full list here`](http://imashamed.net/stats.html)
     - this can also be an array of IDs in the format (#######,#######,#######)
-  - `[preset]` : adds IDs from custom preset to search query - **custom presets with the same name override builtin presets**
-  - `pamp` : adds best two Physical Amplification rolls to search query
-  - `mamp` : adds best two Magic Amplification rolls to search query
-  - `pcp` : adds best two Physical Crit Power rolls to search query
-  - `mcp` : adds best two Magic Crit Power rolls to search query
-  - `cf` : adds best two Crit Factor rolls to search query
-  - `ppierce` : adds best two Physical Piercing rolls to search query
-  - `mpierce` : adds best two Magic Piercing rolls to search query
-  - `pres` : adds best two Physical Resistance rolls to search query
-  - `mres` : adds best two Magic Resistance rolls to search query
-  - `pignore` : adds best two Ignore Physical Resistance rolls to search query
-  - `mignore` : adds best two Ignore Magic Resistance rolls to search query
-  - `hp` : adds best two HP rolls to search query
-  - `mp` : adds best two MP rolls to search query
+  - `[preset]` : adds IDs from custom or built-in preset to search query - **custom presets with the same name override built-in presets**
+    **Built-in Presets**
+    - `pamp` : adds best two Physical Amplification rolls to search query
+    - `mamp` : adds best two Magic Amplification rolls to search query
+    - `pres` : adds best two Physical Resistance rolls to search query
+    - `mres` : adds best two Magic Resistance rolls to search query
+    - `pcp` : adds best two Physical Crit Power rolls to search query
+    - `mcp` : adds best two Magic Crit Power rolls to search query
+    - `ppierce` : adds best two Physical Piercing rolls to search query
+    - `mpierce` : adds best two Magic Piercing rolls to search query
+    - `pignore` : adds best two Ignore Physical Resistance rolls to search query
+    - `mignore` : adds best two Ignore Magic Resistance rolls to search query
+    - `hp` : adds best two HP rolls to search query
+    - `mp` : adds best two MP rolls to search query
+    - `cf` : adds best two Crit Factor rolls to search query
 - __`remove`__
   - `[id]` : removes ID from list of stats to search for
   - `all` : clears list of stats to search for
-- __`preset`__ _**NEW**_
+- __`preset`__
   - `list` : Lists all custom presets
   - `add [name] [ids]` : adds `[ids]` to `[name]` preset, or creates a new one if previous doesn't exist
   - `remove [name] [ids]` : removes `[ids]` from `[name]` preset, where ids is a list in format (######,######,######)
@@ -114,6 +112,10 @@ At any given time, you can view all custom-made presets and their contents with 
 ## Changelog
 
 ```diff
+v1.0.2
++ Added 'hp' and 'mp' presets
+- 'open' option removed - this is now the default function for 'broker'
+
 v1.0.1
 + Unauthorized users will now receieve a message in-game indicating them of their status
 + Unauthorized users will be able to use the base command to open a broker anywhere
