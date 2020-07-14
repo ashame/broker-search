@@ -2,6 +2,8 @@
 
 TERA Toolbox module for finding your gear rolls on broker. Unauthorized users can PM nathan#0111 on Discord with your accountId to discuss.
 
+![image](https://i.imgur.com/KMklmms.png)
+
 ## Installation
 
 - Create a folder called `broker-search` in `TeraToolbox/mods` and download [`module.json`](https://git.imashamed.net/nathan/broker-search/raw/master/module.json) into the folder (right click -> save link as)
@@ -112,6 +114,9 @@ At any given time, you can view all custom-made presets and their contents with 
 ## Changelog
 
 ```diff
+v1.1.0
++ Search results now output to a GUI instead of flooding chat :)
+
 v1.0.2
 + Added 'hp' and 'mp' presets
 - 'open' option removed - this is now the default function for 'broker'
