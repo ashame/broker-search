@@ -72,6 +72,9 @@ At any given time, you can view all custom-made presets and their contents with 
 
 ### Arguments
 
+- __`gui`__
+  - Opens GUI for conveient loading/unloading of presets and searching
+  - Custom presets are denoted with an asterisk(*)
 - __`search`__
   - toggles search on next broker query
 - __`list`__
@@ -114,6 +117,9 @@ At any given time, you can view all custom-made presets and their contents with 
 ## Changelog
 
 ```diff
+v1.1.1
++ Added GUI option
+
 v1.1.0
 + Search results now output to a GUI instead of flooding chat :)
 

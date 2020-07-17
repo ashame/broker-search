@@ -4,7 +4,8 @@ const DefaultSettings = {
     pageDelay: 100,
     itemDelay: 40,
     stats: [],
-    presets: {}
+    presets: {},
+    loadedPresets: []
 };
 
 module.exports = function MigrateSettings(from_ver, to_ver, settings) {
@@ -15,7 +16,16 @@ module.exports = function MigrateSettings(from_ver, to_ver, settings) {
         // No config file exists, use default settings
         return DefaultSettings;
     } else {
-        // Migrate from older version (using the new system) to latest one
-        throw new Error('So far there is only one settings version and this should never be reached!');
+        if (to_ver - from_ver > 1) {
+            settings = MigrateSettings(from_ver, from_ver + 1, settings);
+            return MigrateSettings(from_ver + 1, to_ver, settings);
+        }
+
+        switch (to_ver) {
+            case 2: 
+                return Object.assign(settings, {loadedPresets: []});
+            default:
+                throw new Error('Error updating settings, please delete config.json / make a backup and restart toolbox');
+        }
     }
 };
