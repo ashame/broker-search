@@ -117,6 +117,10 @@ At any given time, you can view all custom-made presets and their contents with 
 ## Changelog
 
 ```diff
+v1.1.2
++ Fixed max stat highlighting in GUI option
++ Clicking 'page' in UI now jumps to relevant broker page
+
 v1.1.1
 + Added GUI option
 

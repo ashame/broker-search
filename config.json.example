@@ -4,6 +4,7 @@
         "pageDelay": 100,
         "itemDelay": 40,
         "stats": [],
+        "loadedPresets": [],
         "presets": {
             "infusion-cf": {
                 "ids": [

@@ -1,9 +1,9 @@
 {
 	"files": {
-		"README.md": "b9551bcff21fae79d75a3af7d0b5b406fdf208496ff88dc00fcac1c3c173edb8",
-		"config.json.example": "1d53b8bb30244a04e02184ac951f14d91bd25cf19366797a0db17841e7a30255",
-		"index.js": "383a3ada9e385f5c7e5022662d7bba3efcdf442ada2cd0e1042b215ce4dd4f85",
-		"module.json": "020096b31b5919755abf5f27c9a28e8942b96bb099b5e319335923e072df72e8",
-		"settings.js": "138be609c0c4ae8746e08fa58905a671ef95d2f140c162bf240807d50acd3e93"
+		"README.md": "ee818d95a2b375d910a83eb6be6f140c08218303e8bd4bb79341a3f18de512df",
+		"config.json.example": "8d0da60e6ddcb043b03e7f93d1046615ee621e4e0798cdf3af15bb124e702854",
+		"index.js": "09ecb8f8dd6841ecb875f22c7a1d9d008ec9ac092b0aef1e30708e036abe1678",
+		"module.json": "17d1fc7e98ef95fbccf43b5ce59c10d359a53ac8499505508c9c9bd87cf9c521",
+		"settings.js": "cc63e0dcb93b709e15ccef2255ebb7ca43df6fa13e7b78178b059e52f7ccd2af"
 	}
 }

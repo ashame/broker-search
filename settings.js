@@ -4,8 +4,8 @@ const DefaultSettings = {
     pageDelay: 100,
     itemDelay: 40,
     stats: [],
-    presets: {},
-    loadedPresets: []
+    loadedPresets: [],
+    presets: {}
 };
 
 module.exports = function MigrateSettings(from_ver, to_ver, settings) {
