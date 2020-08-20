@@ -117,6 +117,9 @@ At any given time, you can view all custom-made presets and their contents with 
 ## Changelog
 
 ```diff
+v1.1.3
++ Autoupdate functionality for future opcode / definition changes
+
 v1.1.2
 + Fixed max stat highlighting in GUI option
 + Clicking 'page' in UI now jumps to relevant broker page
