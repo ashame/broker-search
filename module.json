@@ -10,8 +10,8 @@
         "settingsMigrator": "settings.js"
     },
     "servers": [
-        "https://git.imashamed.net/nathan/broker-search/raw/master/"
+        "https://raw.githubusercontent.com/ashame/broker-search/master/"
     ],
-    "supportUrl": "https://git.imashamed.net/nathan/broker-search/blob/master/README.md",
+    "supportUrl": "https://github.com/ashame/broker-search/blob/master/README.md",
     "version": "1.1.3"
 }
