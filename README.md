@@ -6,7 +6,7 @@ TERA Toolbox module for finding your gear rolls on broker. Unauthorized users ca
 
 ## Installation
 
-- Create a folder called `broker-search` in `TeraToolbox/mods` and download [`module.json`](https://git.imashamed.net/nathan/broker-search/raw/master/module.json) into the folder (right click -> save link as)
+- Create a folder called `broker-search` in `TeraToolbox/mods` and download [`module.json`](https://raw.githubusercontent.com/ashame/broker-search/master/module.json) into the folder (right click -> save link as)
   
 ## Example Usage
 

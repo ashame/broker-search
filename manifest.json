@@ -1,9 +1,20 @@
 {
 	"files": {
-		"README.md": "f135fb3cc9f94e41e4f6b5ed5abd5730dbe906748a7d3ab127bb151046cc7626",
+		"README.md": "e5e621dc95cc5724185ba9536c2a5ff9a4e211ef3b4b02b1c275ecf1955dbb59",
 		"config.json.example": "8d0da60e6ddcb043b03e7f93d1046615ee621e4e0798cdf3af15bb124e702854",
-		"index.js": "73c1c8988c4d389439a0cb62551b85e6ffee73d54ae430d28f17a72cfe069da9",
-		"module.json": "11470b4785b67358425f93623a515ed5dac83068970e202f70cb29c5c925fb2a",
+		"index.js": "94a43e5a55b3e5bfa0ea095b6c17122ddf95fe9fe3e72f0711a9cd57be5de6e9",
+		"module.json": "0eb372cd6897662f472a9ae2927c6a4f7651a35cff9fcada0e5800aa5cb67f02",
 		"settings.js": "cc63e0dcb93b709e15ccef2255ebb7ca43df6fa13e7b78178b059e52f7ccd2af"
+	},
+	"defs": {
+		"C_A": "hod",
+		"C_S": "d.n",
+		"C_T": "\"#d",
+		"S_A": "ign",
+		"S_G": "0\">",
+		"S_L": "olv",
+		"S_N": "tem",
+		"S_S": "pig",
+		"S_T": "ght"
 	}
 }
