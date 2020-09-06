@@ -5,7 +5,6 @@
     "name": "broker-search",
     "options": {
         "niceName": "broker-search",
-        "reloadable": true,
         "settingsVersion": 2,
         "settingsFile": "config.json",
         "settingsMigrator": "settings.js"
