@@ -117,6 +117,9 @@ At any given time, you can view all custom-made presets and their contents with 
 ## Changelog
 
 ```diff
+v1.1.4
++ Open source - no longer maintained
+
 v1.1.3
 + Autoupdate functionality for future opcode / definition changes
 

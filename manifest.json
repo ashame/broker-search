@@ -1,9 +1,20 @@
 {
 	"files": {
-		"README.md": "e5e621dc95cc5724185ba9536c2a5ff9a4e211ef3b4b02b1c275ecf1955dbb59",
+		"README.md": "a583f2b49c7dd1691e374c126598c22536a1b9faf5d032a67b50d3c6a67384c6",
 		"config.json.example": "8d0da60e6ddcb043b03e7f93d1046615ee621e4e0798cdf3af15bb124e702854",
-		"index.js": "d72e02faca4e37fa2b35ea8ac2758a6e648db2a53403a94239efcd1720e59c10",
-		"module.json": "11470b4785b67358425f93623a515ed5dac83068970e202f70cb29c5c925fb2a",
+		"index.js": "1c956cc45b7f8230ec5d3a927f80ca5e285baa5e2b2217d07d17d485222107d9",
+		"module.json": "9643bae3d46ccf0d959ae585cb06c74f8c8838ea6bcd3711454859c5f1e7569c",
 		"settings.js": "cc63e0dcb93b709e15ccef2255ebb7ca43df6fa13e7b78178b059e52f7ccd2af"
+	},
+	"defs": {
+		"C_ADMIN": 1,
+		"C_SHOW_ITEM_TOOLTIP_EX": 3,
+		"C_TRADE_BROKER_WAITING_ITEM_LIST_PAGE": 1,
+		"S_ANNOUNCE_UPDATE_NOTIFICATION": 1,
+		"S_GET_USER_LIST": 18,
+		"S_LOGIN_ACCOUNT_INFO": 2,
+		"S_NPC_MENU_SELECT": 1,
+		"S_SHOW_ITEM_TOOLTIP": 14,
+		"S_TRADE_BROKER_WAITING_ITEM_LIST": 1
 	}
 }
